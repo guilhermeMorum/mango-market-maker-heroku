@@ -1,0 +1,8 @@
+build:
+  docker:
+    mm: Dockerfile
+run:
+  mngo: 
+    command:
+      - python myworker.py
+    image: mm
